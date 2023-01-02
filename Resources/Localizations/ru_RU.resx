@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_AccessDenied" xml:space="preserve">
+    <value>Доступ запрещён.</value>
+  </data>
+  <data name="Error_BadAddress" xml:space="preserve">
+    <value>Неверный адрес. Пример адреса: "C:/Users/Admin/Desktop"</value>
+  </data>
+  <data name="Error_BadPort" xml:space="preserve">
+    <value>Неверный порт!</value>
+  </data>
+  <data name="Error_BadPortSave" xml:space="preserve">
+    <value>Порт не может быть сохранён.</value>
+  </data>
+  <data name="Error_Connection_Refused" xml:space="preserve">
+    <value>Подключение принудительно разорвано. Неверный логин или пароль.</value>
+  </data>
+  <data name="Error_Connection_Refused_Simple" xml:space="preserve">
+    <value>Подключение принудительно разорвано.</value>
+  </data>
+  <data name="Error_DirFileNotFound" xml:space="preserve">
+    <value>Данная директория/файл не найдена.</value>
+  </data>
+  <data name="Error_EmptyAddress" xml:space="preserve">
+    <value>Отсутствует папка по умолчанию... Переходим к списку дисков.</value>
+  </data>
+  <data name="Error_FolderError" xml:space="preserve">
+    <value>Ошибка папки.</value>
+  </data>
+  <data name="Error_Incorrect_IP" xml:space="preserve">
+    <value>Неправильный IP!</value>
+  </data>
+  <data name="Error_IsntConnected" xml:space="preserve">
+    <value>Отсутствует соединение с сервером.</value>
+  </data>
+  <data name="Error_IsntDeleted" xml:space="preserve">
+    <value>Один из файлов/директорий не может быть удалён!(вероятно, вы выделили ".." при удалении.)</value>
+  </data>
+  <data name="Error_IsntDownloaded" xml:space="preserve">
+    <value>Один из файлов/директорий не может быть загружен!(вероятно, вы выделили ".." при загрузке.)</value>
+  </data>
+  <data name="Error_IsntMoved" xml:space="preserve">
+    <value>Один из файлов/директорий не может быть перемещён!(вероятно, вы выделили ".." при перемещении.)</value>
+  </data>
+  <data name="Error_IsntOpened" xml:space="preserve">
+    <value>Файл или папка не может быть открыт(а).</value>
+  </data>
+  <data name="Error_IsntRenamed" xml:space="preserve">
+    <value>Невозможно переименовать файл/директорию!</value>
+  </data>
+  <data name="Error_IsntUpload" xml:space="preserve">
+    <value>Один из файлов/директорий не может быть выгружен!(вероятно, вы выделили ".." при выгрузке.)</value>
+  </data>
+  <data name="Error_MovingError" xml:space="preserve">
+    <value>Ошибка перемещения файла.</value>
+  </data>
+  <data name="Error_PortLost" xml:space="preserve">
+    <value>Порт недавнего сервера был потерян! Установлен стандартный порт.</value>
+  </data>
+  <data name="Error_PortOutOfRange" xml:space="preserve">
+    <value>Порт вышел за пределы! Допустимое значение от 0 до 65535.</value>
+  </data>
+  <data name="Error_RecentNotFound" xml:space="preserve">
+    <value>Авторизируйтесь хотябы на один FTP-сервер, чтобы появились недавние сервера.</value>
+  </data>
+  <data name="Error_RefreshingUnavailable" xml:space="preserve">
+    <value>Невозможно обновить списки.</value>
+  </data>
+  <data name="Error_RefreshingUnavailableServer" xml:space="preserve">
+    <value> Клиент не подключён к серверу. Обновление списка невозможно.</value>
+  </data>
+  <data name="Error_SelectDisk" xml:space="preserve">
+    <value>Пожалуйста, выберите диск.</value>
+  </data>
+  <data name="Error_SelectDiskToDownload" xml:space="preserve">
+    <value>Выберите диск для того, чтобы загрузить выбранные файлы/папки!</value>
+  </data>
+  <data name="Error_SettingAddressDefault" xml:space="preserve">
+    <value>Неизвестная ошибка. Указываем адрес на корневой.</value>
+  </data>
+  <data name="Error_Timeout" xml:space="preserve">
+    <value>Время ожидания истекло. Проверьте ваше соединение с сервером и интернетом.</value>
+  </data>
+  <data name="Error_TooFast" xml:space="preserve">
+    <value>Слишком быстро!</value>
+  </data>
+  <data name="Error_UnexceptedError" xml:space="preserve">
+    <value>Неизвестная ошибка.</value>
+  </data>
+  <data name="Error_UnsupportedIP" xml:space="preserve">
+    <value>Данный адрес не поддерживается! Поддерживаются только IPv6 и IPv4.</value>
+  </data>
+  <data name="Info_Authenticated" xml:space="preserve">
+    <value>Аутентифицирован</value>
+  </data>
+  <data name="Info_Authorized" xml:space="preserve">
+    <value>Авторизирован!</value>
+  </data>
+  <data name="Info_CantChangeDir" xml:space="preserve">
+    <value>Сейчас невозможно изменить директорию.</value>
+  </data>
+  <data name="Info_Closed" xml:space="preserve">
+    <value>Закрыто.</value>
+  </data>
+  <data name="Info_Connect" xml:space="preserve">
+    <value>Подключиться</value>
+  </data>
+  <data name="Info_Connected" xml:space="preserve">
+    <value>Подключено!</value>
+  </data>
+  <data name="Info_Connecting" xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
+  <data name="Info_Create" xml:space="preserve">
+    <value>Создать!</value>
+  </data>
+  <data name="Info_Disconnect" xml:space="preserve">
+    <value>Отключиться</value>
+  </data>
+  <data name="Info_Disconnected" xml:space="preserve">
+    <value>Соединение разорвано.</value>
+  </data>
+  <data name="Info_Disconnected_by_Prog" xml:space="preserve">
+    <value>Соединение разорвано программой.</value>
+  </data>
+  <data name="Info_Disconnected_by_User" xml:space="preserve">
+    <value>Соединение разорвано пользователем.</value>
+  </data>
+  <data name="Info_Encode_Default" xml:space="preserve">
+    <value>Кодировка была установлена по умолчанию.</value>
+  </data>
+  <data name="Info_Example" xml:space="preserve">
+    <value>Файл.txt</value>
+  </data>
+  <data name="Info_InputNameFolder" xml:space="preserve">
+    <value>Введите название папки</value>
+  </data>
+  <data name="Info_InputNewName" xml:space="preserve">
+    <value>Введите новое название файла\папки</value>
+  </data>
+  <data name="Info_Joining" xml:space="preserve">
+    <value>Подключаемся...</value>
+  </data>
+  <data name="Info_Move" xml:space="preserve">
+    <value>Переместить</value>
+  </data>
+  <data name="Info_MoveThere" xml:space="preserve">
+    <value>Переместить сюда</value>
+  </data>
+  <data name="Info_NewFolder" xml:space="preserve">
+    <value>Новая папка</value>
+  </data>
+  <data name="Info_PortSaved" xml:space="preserve">
+    <value>Порт был успешно сохранён! </value>
+  </data>
+  <data name="Info_RenameIt" xml:space="preserve">
+    <value>Переименовать!</value>
+  </data>
+  <data name="null" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="Text_Apply" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="Text_Auto" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="Text_Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="Text_CreateFile" xml:space="preserve">
+    <value>Создать файл</value>
+    <comment>dont use</comment>
+  </data>
+  <data name="Text_CreateFolder" xml:space="preserve">
+    <value>Создать папку</value>
+  </data>
+  <data name="Text_CustomPort" xml:space="preserve">
+    <value>Указать порт</value>
+  </data>
+  <data name="Text_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Text_Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="Text_File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Text_Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="Text_FTPType" xml:space="preserve">
+    <value>Тип FTP подкл.</value>
+  </data>
+  <data name="Text_Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="Text_Password" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="Text_Properties" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="Text_Properties_AddInfo" xml:space="preserve">
+    <value>Дополнительная информация</value>
+  </data>
+  <data name="Text_Properties_Address" xml:space="preserve">
+    <value>Путь:</value>
+  </data>
+  <data name="Text_Properties_Advanced" xml:space="preserve">
+    <value>Доп. инф.:</value>
+  </data>
+  <data name="Text_Properties_BasicInfo" xml:space="preserve">
+    <value>Базовая информация</value>
+  </data>
+  <data name="Text_Properties_Chmod" xml:space="preserve">
+    <value>Chmod:</value>
+  </data>
+  <data name="Text_Properties_Filename" xml:space="preserve">
+    <value>Имя файла:</value>
+  </data>
+  <data name="Text_Properties_FilenameInvalid" xml:space="preserve">
+    <value>Файл недоступен.</value>
+  </data>
+  <data name="Text_Properties_ModDate" xml:space="preserve">
+    <value>Дата мод.:</value>
+  </data>
+  <data name="Text_Properties_NoPerms" xml:space="preserve">
+    <value>Нет прав.</value>
+  </data>
+  <data name="Text_Properties_Size" xml:space="preserve">
+    <value>Размер:</value>
+  </data>
+  <data name="Text_Recent" xml:space="preserve">
+    <value>Недавние</value>
+  </data>
+  <data name="Text_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Text_Rename" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="Text_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Text_Settings_AutoEncode" xml:space="preserve">
+    <value>Авто кодировка</value>
+  </data>
+  <data name="Text_Settings_BetaFunctional" xml:space="preserve">
+    <value>Бета функции</value>
+  </data>
+  <data name="Text_Settings_BetaMessage" xml:space="preserve">
+    <value>Бета функционал нестабилен, он может работать или работать плохо/нестабильно. 
+Пометки цветом:
+Красный: Функция не работает.
+Желтый:Функция нестабильна.
+Белый:Новая функция без категории(или разработчику было лень указать)</value>
+  </data>
+  <data name="Text_Settings_Encoding" xml:space="preserve">
+    <value>Кодировка</value>
+  </data>
+  <data name="Text_Settings_ForceASCII" xml:space="preserve">
+    <value>Принуд. ASCII</value>
+  </data>
+  <data name="Text_Settings_ForceUTF7" xml:space="preserve">
+    <value>Принуд. UTF7</value>
+  </data>
+  <data name="Text_Settings_ForceUTF8" xml:space="preserve">
+    <value>Принуд. UTF8</value>
+  </data>
+  <data name="Text_Settings_FXPProto" xml:space="preserve">
+    <value>FXP Протокол</value>
+  </data>
+  <data name="Text_Settings_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Text_Settings_LanguageMessage" xml:space="preserve">
+    <value>Изменение языка происходит не мгновенно! Требуется перезагрузка.</value>
+  </data>
+  <data name="Text_Settings_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="Text_Upload" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="Text_Username" xml:space="preserve">
+    <value>Логин:</value>
+  </data>
+</root>

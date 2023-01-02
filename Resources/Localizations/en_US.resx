@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_AccessDenied" xml:space="preserve">
+    <value>Access denied!</value>
+  </data>
+  <data name="Error_BadAddress" xml:space="preserve">
+    <value>Bad address. Write address same: "C:/Users/Admin/Desktop"</value>
+  </data>
+  <data name="Error_BadPort" xml:space="preserve">
+    <value>Port is incorrect!</value>
+  </data>
+  <data name="Error_BadPortSave" xml:space="preserve">
+    <value>This port is can't be saved.</value>
+  </data>
+  <data name="Error_Connection_Refused" xml:space="preserve">
+    <value>Connection refused. Check your Username or Password.</value>
+  </data>
+  <data name="Error_Connection_Refused_Simple" xml:space="preserve">
+    <value>Connection refused.</value>
+  </data>
+  <data name="Error_DirFileNotFound" xml:space="preserve">
+    <value>This directory/file is not found.</value>
+  </data>
+  <data name="Error_EmptyAddress" xml:space="preserve">
+    <value>Default folder isn't detected... Redirecting to disk list.</value>
+  </data>
+  <data name="Error_FolderError" xml:space="preserve">
+    <value>Folder error.</value>
+  </data>
+  <data name="Error_Incorrect_IP" xml:space="preserve">
+    <value>Please, input correct IP Address.</value>
+  </data>
+  <data name="Error_IsntConnected" xml:space="preserve">
+    <value>Server is unavailable. Connection has been closed.</value>
+  </data>
+  <data name="Error_IsntDeleted" xml:space="preserve">
+    <value>One of this files or directories can't be deleted.(named as ".." or same exception)</value>
+  </data>
+  <data name="Error_IsntDownloaded" xml:space="preserve">
+    <value>One of this files or directories can't be downloaded(named as ".." or same exception)</value>
+  </data>
+  <data name="Error_IsntMoved" xml:space="preserve">
+    <value>One of this files or directories can't be copied/moved(named as ".." or same exception)</value>
+  </data>
+  <data name="Error_IsntOpened" xml:space="preserve">
+    <value>File/Folder is can't be open now!</value>
+  </data>
+  <data name="Error_IsntRenamed" xml:space="preserve">
+    <value>This file or directory can't be renamed.</value>
+  </data>
+  <data name="Error_IsntUpload" xml:space="preserve">
+    <value>One of this files or directories can't be uploaded(named as ".." or same exception)</value>
+  </data>
+  <data name="Error_MovingError" xml:space="preserve">
+    <value>Moving error.</value>
+  </data>
+  <data name="Error_PortLost" xml:space="preserve">
+    <value>Port of recent server has been lost! Setting default port.</value>
+  </data>
+  <data name="Error_PortOutOfRange" xml:space="preserve">
+    <value>Write correct port from 0 to 65535!</value>
+  </data>
+  <data name="Error_RecentNotFound" xml:space="preserve">
+    <value>Authorize once to FTP-server for adding server to Recent.</value>
+  </data>
+  <data name="Error_RefreshingUnavailable" xml:space="preserve">
+    <value> Refreshing is unavailable.</value>
+  </data>
+  <data name="Error_RefreshingUnavailableServer" xml:space="preserve">
+    <value>Client isn't connected to server. Refreshing is unavalable.</value>
+  </data>
+  <data name="Error_SelectDisk" xml:space="preserve">
+    <value> Please, select disk.</value>
+  </data>
+  <data name="Error_SelectDiskToDownload" xml:space="preserve">
+    <value>Select disk or folder to download files/folders!</value>
+  </data>
+  <data name="Error_SettingAddressDefault" xml:space="preserve">
+    <value>Unexcepted error. Setting folder to default.</value>
+  </data>
+  <data name="Error_Timeout" xml:space="preserve">
+    <value>Connection timeout. Check your settings, server or internet connection.</value>
+  </data>
+  <data name="Error_TooFast" xml:space="preserve">
+    <value>Too fast!</value>
+  </data>
+  <data name="Error_UnexceptedError" xml:space="preserve">
+    <value>Unexcepted error.</value>
+  </data>
+  <data name="Error_UnsupportedIP" xml:space="preserve">
+    <value>IP supports only IPv6 or IPv4. Check IP Address.</value>
+  </data>
+  <data name="Info_Authenticated" xml:space="preserve">
+    <value>Authenticated</value>
+  </data>
+  <data name="Info_Authorized" xml:space="preserve">
+    <value>Authorized!</value>
+  </data>
+  <data name="Info_CantChangeDir" xml:space="preserve">
+    <value>Directory changing is unavailable now.</value>
+  </data>
+  <data name="Info_Closed" xml:space="preserve">
+    <value>Closed.</value>
+  </data>
+  <data name="Info_Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="Info_Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="Info_Connecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="Info_Create" xml:space="preserve">
+    <value>Create!</value>
+  </data>
+  <data name="Info_Disconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="Info_Disconnected" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="Info_Disconnected_by_Prog" xml:space="preserve">
+    <value>Connection closed by MFTP.</value>
+  </data>
+  <data name="Info_Disconnected_by_User" xml:space="preserve">
+    <value>Connection closed by User.</value>
+  </data>
+  <data name="Info_Encode_Default" xml:space="preserve">
+    <value>Encoding setted to default value.</value>
+  </data>
+  <data name="Info_Example" xml:space="preserve">
+    <value>Example.txt</value>
+  </data>
+  <data name="Info_InputNameFolder" xml:space="preserve">
+    <value>Input new name for New Folder:</value>
+  </data>
+  <data name="Info_InputNewName" xml:space="preserve">
+    <value>Input new name for File/Folder:</value>
+  </data>
+  <data name="Info_Joining" xml:space="preserve">
+    <value>Joining...</value>
+  </data>
+  <data name="Info_Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="Info_MoveThere" xml:space="preserve">
+    <value>Move there</value>
+  </data>
+  <data name="Info_NewFolder" xml:space="preserve">
+    <value>New Folder</value>
+  </data>
+  <data name="Info_PortSaved" xml:space="preserve">
+    <value>Custom port has been saved!</value>
+  </data>
+  <data name="Info_RenameIt" xml:space="preserve">
+    <value>Rename it!</value>
+  </data>
+  <data name="null" xml:space="preserve">
+    <value>null</value>
+  </data>
+  <data name="Text_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Text_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Text_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Text_CreateFile" xml:space="preserve">
+    <value>Create File</value>
+    <comment>dont use</comment>
+  </data>
+  <data name="Text_CreateFolder" xml:space="preserve">
+    <value>Create Folder</value>
+  </data>
+  <data name="Text_CustomPort" xml:space="preserve">
+    <value>Custom Port</value>
+  </data>
+  <data name="Text_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Text_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Text_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Text_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="Text_FTPType" xml:space="preserve">
+    <value>FTP Type</value>
+  </data>
+  <data name="Text_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Text_Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Text_Properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Text_Properties_AddInfo" xml:space="preserve">
+    <value>Additional information</value>
+  </data>
+  <data name="Text_Properties_Address" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="Text_Properties_Advanced" xml:space="preserve">
+    <value>Advanced:</value>
+  </data>
+  <data name="Text_Properties_BasicInfo" xml:space="preserve">
+    <value>Basic information</value>
+  </data>
+  <data name="Text_Properties_Chmod" xml:space="preserve">
+    <value>Chmod:</value>
+  </data>
+  <data name="Text_Properties_Filename" xml:space="preserve">
+    <value>File name:</value>
+  </data>
+  <data name="Text_Properties_FilenameInvalid" xml:space="preserve">
+    <value>File is unavailable</value>
+  </data>
+  <data name="Text_Properties_ModDate" xml:space="preserve">
+    <value>Mod. date:</value>
+  </data>
+  <data name="Text_Properties_NoPerms" xml:space="preserve">
+    <value>No permissions.</value>
+  </data>
+  <data name="Text_Properties_Size" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="Text_Recent" xml:space="preserve">
+    <value>Recent</value>
+  </data>
+  <data name="Text_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Text_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Text_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Text_Settings_AutoEncode" xml:space="preserve">
+    <value>Auto Encoding</value>
+  </data>
+  <data name="Text_Settings_BetaFunctional" xml:space="preserve">
+    <value>Beta functional</value>
+  </data>
+  <data name="Text_Settings_BetaMessage" xml:space="preserve">
+    <value>Beta functional is unstable, and don't/bad working and it has been planed in program.
+Label colors:
+RED: Function isn't working.
+YELLOW: Function unstable.
+WHITE: New function, uncategorized(or developer is lazy)</value>
+  </data>
+  <data name="Text_Settings_Encoding" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="Text_Settings_ForceASCII" xml:space="preserve">
+    <value>Force ASCII</value>
+  </data>
+  <data name="Text_Settings_ForceUTF7" xml:space="preserve">
+    <value>Force UTF7</value>
+  </data>
+  <data name="Text_Settings_ForceUTF8" xml:space="preserve">
+    <value>Force UTF8</value>
+  </data>
+  <data name="Text_Settings_FXPProto" xml:space="preserve">
+    <value>FXP Protocol</value>
+  </data>
+  <data name="Text_Settings_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Text_Settings_LanguageMessage" xml:space="preserve">
+    <value>Language changing isn't instantly! Restart needed.</value>
+  </data>
+  <data name="Text_Settings_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Text_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Text_Username" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+</root>

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "_MFTP_/1.0.0": {
+        "dependencies": {
+          "FluentFTP": "43.0.1"
+        },
+        "runtime": {
+          "_MFTP_.dll": {}
+        }
+      },
+      "FluentFTP/43.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/FluentFTP.dll": {
+            "assemblyVersion": "43.0.1.0",
+            "fileVersion": "43.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "_MFTP_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentFTP/43.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5eLiC5cuvakBynM4d5Gy+AoP0vMBEn29ccMUBTv1SxF++ILwIEQT+e/8aEC+rJs6Ypgyua9EgDGeCm1ZPDx8Vg==",
+      "path": "fluentftp/43.0.1",
+      "hashPath": "fluentftp.43.0.1.nupkg.sha512"
+    }
+  }
+}
